@@ -1,0 +1,6 @@
+{
+    "name": "Desk Manager Extension",
+    "description": "Extension to give a ticket to the queue",
+    "version": "1.0",
+    "manifest_version": 3
+  }
