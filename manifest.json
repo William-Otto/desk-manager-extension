@@ -1,6 +1,21 @@
 {
     "name": "Desk Manager Extension",
-    "description": "Extension to give a ticket to the queue",
+    "description": "Gives a ticket for each call at the queue",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "icons": {
+      
+    },
+    "author": "William-Otto",
+    "homepage_url": "https://github.com/William-Otto/desk-manager-extension",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://agro1.desk.ms/*"
+        ],
+        "js": [
+          "index.js"
+        ]
+      }
+    ]
   }
